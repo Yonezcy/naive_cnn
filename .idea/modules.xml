@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Convolutional_Neural_Network.iml" filepath="$PROJECT_DIR$/.idea/Convolutional_Neural_Network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Deep_Neural_Network/.idea/Deep_Neural_Network.iml" filepath="$PROJECT_DIR$/../Deep_Neural_Network/.idea/Deep_Neural_Network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Logistic_Regression/.idea/Logistic_Regression.iml" filepath="$PROJECT_DIR$/../Logistic_Regression/.idea/Logistic_Regression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cifar10/.idea/cifar10.iml" filepath="$PROJECT_DIR$/../cifar10/.idea/cifar10.iml" />
+    </modules>
+  </component>
+</project>
