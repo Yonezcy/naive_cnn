@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="1092" column="60" lean-forward="true" selection-start-line="1092" selection-start-column="60" selection-end-line="1092" selection-end-column="60" />
+            <state relative-caret-position="284">
+              <caret line="1292" column="23" lean-forward="true" selection-start-line="1292" selection-start-column="23" selection-end-line="1292" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#377#2336#0" expanded="false" />
@@ -43,7 +43,6 @@
                 <element signature="e#19255#19620#0" expanded="false" />
                 <element signature="e#19659#20031#0" expanded="false" />
                 <element signature="e#20085#39124#0" expanded="false" />
-                <element signature="e#49023#49552#0" expanded="false" />
                 <element signature="e#49595#50400#0" expanded="false" />
                 <element signature="e#50448#52483#0" expanded="false" />
               </folding>
@@ -63,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cifar10_eval.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cifar10_eval.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="105" column="46" lean-forward="true" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+            <state relative-caret-position="342">
+              <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -78,7 +77,7 @@
       <file leaf-file-name="cifar10_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="-2">
               <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -449,7 +448,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -524,7 +522,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -606,7 +603,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -660,7 +656,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -722,7 +717,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -757,7 +751,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -792,7 +785,6 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
           </folding>
@@ -894,16 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar10_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3256">
@@ -914,20 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="105" column="46" lean-forward="true" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="1092" column="60" lean-forward="true" selection-start-line="1092" selection-start-column="60" selection-end-line="1092" selection-end-column="60" />
+        <state relative-caret-position="284">
+          <caret line="1292" column="23" lean-forward="true" selection-start-line="1292" selection-start-column="23" selection-end-line="1292" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#377#2336#0" expanded="false" />
@@ -951,9 +923,28 @@
             <element signature="e#19255#19620#0" expanded="false" />
             <element signature="e#19659#20031#0" expanded="false" />
             <element signature="e#20085#39124#0" expanded="false" />
-            <element signature="e#49023#49552#0" expanded="false" />
             <element signature="e#49595#50400#0" expanded="false" />
             <element signature="e#50448#52483#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
