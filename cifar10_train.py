@@ -35,8 +35,8 @@ def train():
 
 
     # Print train/test Errors
-    print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_train - train_labels[0])) * 100))
-    print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_test - test_labels[0])) * 100))
+    print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_train[0] - train_labels[0])) * 100))
+    print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_test[0] - test_labels[0])) * 100))
 
 
     # Plot cost function iteration image
@@ -46,7 +46,6 @@ def train():
     plt.xlabel('iterations (per hundreds)')
     plt.title("Learning rate =" + str(learning_rate))
     plt.show()
-
 
 
 if __name__ == '__main__':

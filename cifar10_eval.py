@@ -108,15 +108,11 @@ def predict(parameters, image_test, bn_param):
                                                       gamma=gamma3,
                                                       beta=beta3,
                                                       bn_param=bn_param_local_5)
-    Y_prediction = np.zeros((logits.shape[0], 1))
+    Y_prediction = np.zeros((1, logits.shape[1]))
 
     for i in range(logits.shape[0]):
         for j in range(logits.shape[1]):
-            if logits[i][j] == np.max(logits[i]):
-                Y_prediction[i][0] = i
-
-
-
-    assert (Y_prediction.shape == (logits.shape[0], 1))
+            if logits[i][j] == np.max(logits[:, j]):
+                Y_prediction[0][j] = i
 
     return Y_prediction

@@ -8,6 +8,9 @@ num_files = 5
 # Number of training samples
 num_samples = 50000
 
+# Number of testing samples
+num_test_samples = 10000
+
 
 def unpickle(file):
     """Load dataSet from target directory.
@@ -185,7 +188,7 @@ def preprocessing_inputs_test(data_dir):
                     np.std(test_images, axis=1, keepdims=True)
 
     # Reshape images shape (10000, 3072) to (10000, 3, 32, 32)
-    test_images = test_images.reshape(num_samples, depth, height, width)
+    test_images = test_images.reshape(num_test_samples, depth, height, width)
 
     # Reshape labels shape (10000,) to (1, 10000)
     test_labels = test_labels.reshape(test_labels.shape[0], 1).T
