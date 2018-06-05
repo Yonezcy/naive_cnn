@@ -1,15 +1,11 @@
+"""Routine for decoding the CIFAR-10 python file format."""
 import numpy as np
 import os
 
 
-# Number of data_batch files
-num_files = 5
-
-# Number of training samples
-num_samples = 50000
-
-# Number of testing samples
-num_test_samples = 10000
+num_files = 5 # Number of data_batch files
+num_samples = 50000 # Number of training samples
+num_test_samples = 10000 # Number of testing samples
 
 
 def unpickle(file):

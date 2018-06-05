@@ -1,3 +1,4 @@
+"""Train CIFAR-10 using a single CPU."""
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -5,11 +6,8 @@ import cifar10
 import cifar10_eval
 
 
-# Step length of gradient descent
-learning_rate = 0.01
-
-# Number of iterations
-num_iterations = 1
+learning_rate = 0.01 # Step length of gradient descent
+num_iterations = 1 # Number of iterations
 
 
 def train():

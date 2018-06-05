@@ -1,3 +1,4 @@
+"""Evaluation for CIFAR-10."""
 import numpy as np
 import cifar10
 

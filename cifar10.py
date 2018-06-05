@@ -1,3 +1,4 @@
+"""Builds the CIFAR-10 network."""
 import numpy as np
 import sys
 import os
@@ -9,14 +10,9 @@ import time
 import cifar10_input
 
 
-# Data Download URL
-DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz'
-
-# Data directory
-data_dir = '/Users/apple/desktop/cifar-10-batches-py'
-
-# Batch size
-batch_size = 128
+DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz' # Data Download URL
+data_dir = '/Users/apple/desktop/cifar-10-batches-py' # Data directory
+batch_size = 128 # Batch size
 
 
 def conv_forward_naive(x, w, b, conv_param):
