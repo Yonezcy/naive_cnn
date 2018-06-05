@@ -1281,7 +1281,7 @@ def compute_cost(logits, labels):
 
     new_labels = np.zeros((10, 128))
     for i in range(128):
-        new_labels[labels[0][i]][i] = labels[0][i]
+        new_labels[labels[0][i]][i] = 1
 
     loss = np.sum(np.multiply(new_labels, np.log(logits)), axis=0)
     cost = -np.mean(loss)
