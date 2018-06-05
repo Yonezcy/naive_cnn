@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3cb9a8-5ce4-4c56-824d-6622381fe273" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cifar10.py" afterPath="$PROJECT_DIR$/cifar10.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cifar10_eval.py" afterPath="$PROJECT_DIR$/cifar10_eval.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cifar10_input.py" afterPath="$PROJECT_DIR$/cifar10_input.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cifar10_train.py" afterPath="$PROJECT_DIR$/cifar10_train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,23 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#63#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="525">
+              <caret line="1286" column="25" lean-forward="true" selection-start-line="1286" selection-start-column="25" selection-end-line="1286" selection-end-column="25" />
               <folding>
                 <element signature="e#35#53#0" expanded="true" />
                 <element signature="e#410#2369#0" expanded="false" />
@@ -55,12 +41,13 @@
                 <element signature="e#14960#15251#0" expanded="false" />
                 <element signature="e#15273#15581#0" expanded="false" />
                 <element signature="e#15618#15814#0" expanded="false" />
+                <element signature="e#15853#16821#0" expanded="false" />
                 <element signature="e#16884#19246#0" expanded="false" />
                 <element signature="e#19288#19653#0" expanded="false" />
                 <element signature="e#19692#20064#0" expanded="false" />
                 <element signature="e#20118#39157#0" expanded="false" />
-                <element signature="e#49628#50433#0" expanded="false" />
-                <element signature="e#50481#52516#0" expanded="false" />
+                <element signature="e#49626#50431#0" expanded="false" />
+                <element signature="e#50479#52514#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,7 +56,7 @@
       <file leaf-file-name="cifar10_input.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="132">
               <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="e#60#78#0" expanded="true" />
@@ -93,8 +80,8 @@
       <file leaf-file-name="cifar10_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="22">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
               </folding>
@@ -155,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +186,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,7 +372,7 @@
     <frame x="43" y="23" width="1397" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23764534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2369186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -467,12 +454,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -540,12 +528,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,12 +609,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -672,12 +662,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,12 +723,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -765,12 +757,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,12 +791,13 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,9 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#63#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#63#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,15 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cifar10/cifar10_input_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,44 +881,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cifar10_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding>
-            <element signature="e#31#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cifar10_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="e#60#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="525">
+          <caret line="1286" column="25" lean-forward="true" selection-start-line="1286" selection-start-column="25" selection-end-line="1286" selection-end-column="25" />
           <folding>
             <element signature="e#35#53#0" expanded="true" />
             <element signature="e#410#2369#0" expanded="false" />
@@ -960,15 +906,47 @@
             <element signature="e#14960#15251#0" expanded="false" />
             <element signature="e#15273#15581#0" expanded="false" />
             <element signature="e#15618#15814#0" expanded="false" />
+            <element signature="e#15853#16821#0" expanded="false" />
             <element signature="e#16884#19246#0" expanded="false" />
             <element signature="e#19288#19653#0" expanded="false" />
             <element signature="e#19692#20064#0" expanded="false" />
             <element signature="e#20118#39157#0" expanded="false" />
-            <element signature="e#49628#50433#0" expanded="false" />
-            <element signature="e#50481#52516#0" expanded="false" />
+            <element signature="e#49626#50431#0" expanded="false" />
+            <element signature="e#50479#52514#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#60#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding>
+            <element signature="e#31#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cifar10/cifar10_input_test.py" />
   </component>
 </project>

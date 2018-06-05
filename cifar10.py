@@ -1086,7 +1086,7 @@ def inference(mini_batches, learning_rate, num_iterations):
 
         for j in range(num_complete_minibatches):
 
-            # Calculate computing time during 1 mini_batches
+            # Calculate computing time during 1 mini_batch
             start_time = time.time()
 
             # conv_1
