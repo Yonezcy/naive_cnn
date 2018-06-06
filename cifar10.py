@@ -541,7 +541,7 @@ def update_parameters(parameters, grads, learning_rate):
 
 
 
-def preprocessing_inputs(mode):
+def preprocessing_inputs():
     """Construct input for CIFAR training.
 
     Returns:
@@ -553,7 +553,7 @@ def preprocessing_inputs(mode):
     if not data_dir:
         raise ValueError('Please supply a data_dir')
 
-    return cifar10_input.preprocessing_inputs(data_dir=data_dir, batch_size=batch_size, mode=mode)
+    return cifar10_input.preprocessing_inputs(data_dir=data_dir, batch_size=batch_size)
 
 def preprocessing_inputs_test():
     """Construct input for CIFAR testing.
@@ -568,7 +568,7 @@ def preprocessing_inputs_test():
     if not data_dir:
         raise ValueError('Please supply a data_dir')
 
-    return cifar10_input.preprocessing_inputs_test(data_dir=data_dir)
+    return cifar10_input.preprocessing_inputs_test(data_dir=data_dir, batch_size=batch_size)
 
 
 
@@ -1101,6 +1101,7 @@ def inference(mini_batches, learning_rate, num_iterations):
                                                                        bn_param_conv_1)
             conv_1, cache_activation_conv_1 = relu(conv_1)
 
+
             # pool_1
             pool_param = {}
             pool_param['pool_height'] = 2
@@ -1313,88 +1314,3 @@ def maybe_download_and_extract():
         statinfo = os.stat(filepath)
         print('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
         tarfile.open(filepath, 'r:gz').extractall(dest_directory)
-
-
-
-
-# Just for test
-if __name__ == '__main__':
-
-    # Get training data
-    filenames = [os.path.join(data_dir, 'data_batch_%d' % i)
-                 for i in range(1, 6)]
-    train_images, train_labels = cifar10_input.read_cifar10(filenames)
-    test_image = train_images[99]
-
-    '''
-    # Show picture
-    import matplotlib.pyplot as plt
-
-    test_image_plt = test_image.reshape(3, 32, 32)
-    test_image_plt = np.transpose(test_image_plt, [1, 2, 0])
-
-
-    plt.imshow(test_image_plt)
-    plt.show()
-    '''
-
-    # Test convolution forward operation
-    test_image = test_image.reshape(3072, 1).T
-    test_image = (test_image - np.mean(test_image, axis=1, keepdims=True)) / \
-                   np.std(test_image, axis=1, keepdims=True)
-    x = test_image.reshape(1, 3, 32, 32)
-    w = np.random.randn(5, 3, 3, 3)
-    b = np.zeros((5, 1))
-    conv_param = {}
-    conv_param['stride'] = 1
-    conv_param['pad'] = 1
-    out, cache = conv_forward_naive(x, w, b, conv_param)
-
-
-    # Test batchnorm forward
-    bn_param = {}
-    bn_param['mode'] = 'train'
-    bn_param['eps'] = 1e-5
-    bn_param['momentum'] = 0.9
-    gamma = 1
-    beta = 0.001
-    out, cache = spatial_batchnorm_forward(out, gamma, beta, bn_param)
-
-
-    # Test convolution backward operation
-    dout = np.random.randn(1, 5, 32, 32)
-    dx, dw, db = conv_backward_naive(dout, cache)
-
-
-    '''
-    # test the output image
-    image = out[0]
-    image = np.transpose(image, [1, 2, 0])
-
-    import matplotlib.pyplot as plt
-    plt.imshow(image[:,:,4], cmap = 'gray')
-    plt.show()
-    '''
-
-    # Test pooling forward operation
-    x = out
-    pool_param = {}
-    pool_param['pool_height'] = 2
-    pool_param['pool_width'] = 2
-    pool_param['stride'] = 2
-
-    out, cache = max_pool_forward_naive(x, pool_param)
-
-    '''
-    # test the output image
-    image = out[0]
-    image = np.transpose(image, [1, 2, 0])
-
-    import matplotlib.pyplot as plt
-    plt.imshow(image[:,:,4])
-    plt.show()
-    '''
-
-    # Test pooling backward operation
-    dout = np.random.randn(1, 5, 16, 16)
-    dx = max_pool_backward_naive(dout, cache)

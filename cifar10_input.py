@@ -113,7 +113,7 @@ def _generate_image_and_label_batch(image, label, batch_size):
     return mini_batches
 
 
-def preprocessing_inputs(data_dir, batch_size, mode):
+def preprocessing_inputs(data_dir, batch_size):
     """Construct input for CIFAR training.
 
     Args:
@@ -148,13 +148,10 @@ def preprocessing_inputs(data_dir, batch_size, mode):
     # Reshape labels shape (50000,) to (1, 50000)
     train_labels = train_labels.reshape(train_labels.shape[0], 1).T
 
-    if mode == 'train':
-        return _generate_image_and_label_batch(train_images, train_labels, batch_size)
+    return _generate_image_and_label_batch(train_images, train_labels, batch_size)
 
-    elif mode == 'evaluate':
-        return train_images, train_labels
 
-def preprocessing_inputs_test(data_dir):
+def preprocessing_inputs_test(data_dir, batch_size):
     """Construct input for CIFAR training.
 
     Args:
@@ -189,12 +186,4 @@ def preprocessing_inputs_test(data_dir):
     # Reshape labels shape (10000,) to (1, 10000)
     test_labels = np.array(test_labels).reshape(np.array(test_labels).shape[0], 1).T
 
-    return test_images, test_labels
-
-
-# Just for test
-'''
-if __name__ == '__main__':
-    result = preprocessing_inputs('/Users/apple/desktop/cifar-10-batches-py', 128)
-    print result
-'''
+    return _generate_image_and_label_batch(test_images, test_labels, batch_size)

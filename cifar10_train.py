@@ -7,14 +7,14 @@ import cifar10_eval
 
 
 learning_rate = 0.01 # Step length of gradient descent
-num_iterations = 1 # Number of iterations
+num_iterations = 2 # Number of iterations
 
 
 def train():
     """Train CIFAR-10 for a number of steps."""
 
     # Get training set
-    mini_batches = cifar10.preprocessing_inputs('train')
+    mini_batches = cifar10.preprocessing_inputs()
 
 
     # Training
@@ -23,18 +23,27 @@ def train():
 
 
     # Get training and testing images and labels
-    test_images, test_labels = cifar10.preprocessing_inputs_test()
-    train_images, train_labels = cifar10.preprocessing_inputs('evaluate')
+    minibatch_test = cifar10.preprocessing_inputs_test()
+    num_minibatch_test = len(minibatch_test)
+    minibatch_train = cifar10.preprocessing_inputs()
+    num_minibatch_train = len(minibatch_train)
 
 
     # Predict test/train set examples
-    Y_prediction_test = cifar10_eval.predict(parameters, test_images, bn_param, batch_size=10000)
-    Y_prediction_train = cifar10_eval.predict(parameters, train_images, bn_param, batch_size=128)
+    Y_prediction_test = cifar10_eval.predict(parameters, minibatch_test, bn_param)
+    Y_prediction_train = cifar10_eval.predict(parameters, minibatch_train, bn_param)
 
 
     # Print train/test Errors
-    print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_train[0] - train_labels[0])) * 100))
-    print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_test[0] - test_labels[0])) * 100))
+    train_right = 0.; test_right = 0.
+    for i in range(num_minibatch_train):
+        for j in range(128):
+            if Y_prediction_train[i][j] == minibatch_train[i][1][0][j]: train_right += 1
+    for i in range(num_minibatch_test):
+        for j in range(128):
+            if Y_prediction_test[i][j] == minibatch_test[i][1][0][j]: test_right += 1
+    print("train accuracy: {} %".format(train_right/100))
+    print("test accuracy: {} %".format(test_right/100))
 
 
     # Plot cost function iteration image
