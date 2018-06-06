@@ -187,7 +187,7 @@ def preprocessing_inputs_test(data_dir):
     test_images = test_images.reshape(num_test_samples, depth, height, width)
 
     # Reshape labels shape (10000,) to (1, 10000)
-    test_labels = np.array(test_labels).reshape(test_labels.shape[0], 1).T
+    test_labels = np.array(test_labels).reshape(np.array(test_labels).shape[0], 1).T
 
     return test_images, test_labels
 

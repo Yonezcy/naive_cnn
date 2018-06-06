@@ -21,7 +21,7 @@
       <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="1892">
               <caret line="570" column="34" lean-forward="false" selection-start-line="570" selection-start-column="34" selection-end-line="570" selection-end-column="34" />
               <folding>
                 <element signature="e#35#53#0" expanded="true" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="cifar10_input.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar10_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="189" column="74" lean-forward="true" selection-start-line="189" selection-start-column="74" selection-end-line="189" selection-end-column="74" />
+            <state relative-caret-position="343">
+              <caret line="178" column="23" lean-forward="true" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
               <folding>
                 <element signature="e#60#78#0" expanded="true" />
               </folding>
@@ -79,7 +79,7 @@
       <file leaf-file-name="cifar10_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="462">
               <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
@@ -121,8 +121,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="23" />
+    <option name="x" value="17" />
+    <option name="y" value="24" />
     <option name="width" value="1397" />
     <option name="height" value="877" />
   </component>
@@ -141,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,6 +186,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,10 +368,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1397" height="877" extended-state="6" />
+    <frame x="17" y="24" width="1397" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23619185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23546511" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -889,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="462">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="e#41#59#0" expanded="true" />
@@ -899,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="1892">
           <caret line="570" column="34" lean-forward="false" selection-start-line="570" selection-start-column="34" selection-end-line="570" selection-end-column="34" />
           <folding>
             <element signature="e#35#53#0" expanded="true" />
@@ -931,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="189" column="74" lean-forward="true" selection-start-line="189" selection-start-column="74" selection-end-line="189" selection-end-column="74" />
+        <state relative-caret-position="343">
+          <caret line="178" column="23" lean-forward="true" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
           <folding>
             <element signature="e#60#78#0" expanded="true" />
           </folding>
