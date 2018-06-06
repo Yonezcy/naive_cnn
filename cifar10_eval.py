@@ -3,7 +3,7 @@ import numpy as np
 import cifar10
 
 
-def predict(parameters, image_test, bn_param):
+def predict(parameters, image_test, bn_param, batch_size):
     """Predict whether the label is 0 or 1 using parameters.
 
     Args:
@@ -89,7 +89,7 @@ def predict(parameters, image_test, bn_param):
     pool_2, cache_pool_2 = cifar10.max_pool_forward_naive(conv_2, pool_param)
 
     # local_3_relu
-    reshape = pool_2.reshape(128, -1).T
+    reshape = pool_2.reshape(batch_size, -1).T
     local_3, cache_local_3 = cifar10.linear_activation_forward(reshape, w1, b1,
                                                        activation='relu',
                                                        gamma=gamma1,

@@ -28,8 +28,8 @@ def train():
 
 
     # Predict test/train set examples
-    Y_prediction_test = cifar10_eval.predict(parameters, test_images, bn_param)
-    Y_prediction_train = cifar10_eval.predict(parameters, train_images, bn_param)
+    Y_prediction_test = cifar10_eval.predict(parameters, test_images, bn_param, batch_size=10000)
+    Y_prediction_train = cifar10_eval.predict(parameters, train_images, bn_param, batch_size=128)
 
 
     # Print train/test Errors
