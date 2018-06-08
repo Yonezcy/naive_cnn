@@ -226,7 +226,7 @@ def linear_activation_forward(A_prev, W, b, activation, gamma, beta, bn_param):
         Z, batchnorm_cache = batchnorm_forward(Z, gamma, beta, bn_param)
         A, activation_cache = softmax(Z)
 
-    assert (A.shape == (W.shape[0], A_prev.shape[1]))
+    # assert (A.shape == (W.shape[0], A_prev.shape[1]))
     cache = (linear_cache, activation_cache, batchnorm_cache)
 
     return A, cache
@@ -1084,7 +1084,7 @@ def inference(mini_batches, learning_rate, num_iterations):
     # Start training
     for i in range(num_iterations):
 
-        for j in range(num_complete_minibatches):
+        for j in range(1):
 
             # Calculate computing time during 1 mini_batch
             start_time = time.time()

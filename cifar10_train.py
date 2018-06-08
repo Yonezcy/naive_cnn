@@ -7,7 +7,7 @@ import cifar10_eval
 
 
 learning_rate = 0.01 # Step length of gradient descent
-num_iterations = 2 # Number of iterations
+num_iterations = 1 # Number of iterations
 
 
 def train():

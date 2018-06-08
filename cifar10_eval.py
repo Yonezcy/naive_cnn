@@ -68,7 +68,6 @@ def predict(parameters, minibatches, bn_param):
                                                                    beta_conv1,
                                                                    bn_param_conv_1)
         conv_1, cache_activation_conv_1 = cifar10.relu(conv_1)
-        # print "conv1 =", conv_1
 
         # pool_1
         pool_param = {}
@@ -103,7 +102,6 @@ def predict(parameters, minibatches, bn_param):
                                                            gamma=gamma1,
                                                            beta=beta1,
                                                            bn_param=bn_param_local_3)
-        #print "local3 =", local_3
 
         # local_4_relu
         local_4, cache_local_4 = cifar10.linear_activation_forward(local_3, w2, b2,
