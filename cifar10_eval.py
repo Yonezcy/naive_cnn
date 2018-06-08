@@ -39,15 +39,15 @@ def predict(parameters, minibatches, bn_param):
 
     # Get bn_params
     bn_param_conv_1 = bn_param['bn_param_conv_1']
-    bn_param_conv_1['mode'] = 'test'
+    # bn_param_conv_1['mode'] = 'test'
     bn_param_conv_2 = bn_param['bn_param_conv_2']
-    bn_param_conv_2['mode'] = 'test'
+    # bn_param_conv_2['mode'] = 'test'
     bn_param_local_3 = bn_param['bn_param_local_3']
-    bn_param_local_3['mode'] = 'test'
+    # bn_param_local_3['mode'] = 'test'
     bn_param_local_4 = bn_param['bn_param_local_4']
-    bn_param_local_4['mode'] = 'test'
+    # bn_param_local_4['mode'] = 'test'
     bn_param_local_5 = bn_param['bn_param_local_5']
-    bn_param_local_5['mode'] = 'test'
+    # bn_param_local_5['mode'] = 'test'
 
 
     # Number of mini_batches
@@ -55,7 +55,7 @@ def predict(parameters, minibatches, bn_param):
 
     Y_prediction = np.zeros((num_complete_minibatches, 128))
 
-    for i in range(num_complete_minibatches):
+    for i in range(1):
 
         # conv_1
         conv_param = {}

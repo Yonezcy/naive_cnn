@@ -1246,7 +1246,7 @@ def inference(mini_batches, learning_rate, num_iterations):
             step = i * num_complete_minibatches + j
 
             if (i * num_complete_minibatches + j) % 1 == 0:
-                format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
+                format_str = ('%s: step %d, cost = %.2f (%.1f examples/sec; %.3f '
                               'sec/batch)')
                 print (format_str % (datetime.now(), step, cost,
                                      examples_per_sec, sec_per_batch))
