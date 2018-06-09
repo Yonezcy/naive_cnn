@@ -12,7 +12,7 @@ num_iterations = 1 # Number of iterations
 height = 32; width = 32; channels = 3 # Size of CIFAR-10 image
 
 location = '/Users/apple/desktop/car/image_0001.jpg'
-saved_location = '/Users/apple/desktop/image_0001.jpg'
+saved_location = '/Users/apple/desktop/1.jpg'
 
 
 def resize_image(location):
