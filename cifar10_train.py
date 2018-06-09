@@ -16,11 +16,9 @@ def train():
     # Get training set
     mini_batches = cifar10.preprocessing_inputs()
 
-
     # Training
     parameters, costs, bn_param = cifar10.inference(mini_batches, learning_rate=learning_rate,
                                                     num_iterations=num_iterations)
-
 
     # Get training and testing images and labels
     minibatch_test = cifar10.preprocessing_inputs_test()
